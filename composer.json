@@ -1,18 +1,21 @@
 {
-  "name": "dragonfly/module-hide-category-without-products",
+  "name": "magefast-dragonfly/module-hide-category-without-products",
   "version": "1.0.0",
-  "description": "N/A",
+  "minimum-stability": "dev",
+  "description": "Magento extension. Hide Categories without Products.",
   "type": "magento2-module",
   "require": {
     "magento/framework": "*"
   },
-  "license": [
-    "Proprietary"
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "magefast",
+      "email": "magefast@gmail.com"
+    }
   ],
   "autoload": {
-    "files": [
-      "registration.php"
-    ],
+    "files": ["registration.php"],
     "psr-4": {
       "Dragonfly\\HideCategoryWithoutProducts\\": ""
     }
